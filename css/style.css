@@ -240,11 +240,31 @@ header {
     padding-bottom: 40px;
 }
 
-.col-pink {
-    background-color: #f08080;
+.col-lng-social {
     width: 40%;
     height: 580px;
-    border: 2px dashed black;
+}
+
+.col-lng-social h2 {
+    color: #7289da;
+}
+
+.col-lng-social img {
+    max-width: 30px;
+}
+
+.col-lng-social p, img, i {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+    color: white;
+}
+
+p ~ i {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    color: white;
 }
 
 .col-aqua {
