@@ -49,6 +49,16 @@ body {
     line-height: 25px;
 }
 
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 40px;
+    margin-top: 65px;
+}
+
 /*-------------
     HEADER
 --------------*/
@@ -109,10 +119,6 @@ header {
     margin-bottom: 30px;
 }
 
-h1 {
-    font-size: 55px;
-}
-
 .btn-hero {
     display: flex;
     justify-content: center;
@@ -127,35 +133,46 @@ h1 {
     MAIN'S DOUBLE COLUMNS
 ---------------------------*/
 
-.columns {
+.explanation {
     padding: 50px 0;
 }
 
-.col-big {
-    background-color: #1e90ff;
-    width: 720px;
-    border: 2px dashed black;
-    height: 500px;
+.col-img {
+    max-width: 720px;
+    min-height: 500px;
 }
 
-.col-small {
-    background-color: #ffc0cb;
+.col-explanation {
     width: 480px;
-    border: 2px dashed black;
     height: 500px;
 }
 
-.columns-grey-back {
-    background-color: #d3d3d3;
+.explanation-grey-bg {
+    background-color: #f6f6f6;
     padding: 50px 0;
 }
 
-.columns-grey-back>.container {
+.explanation-grey-bg>.container {
     display: flex;
 }
 
-.columns>.container {
+.explanation>.container {
     display: flex;
+}
+
+.explanation .col-explanation>p {
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.explanation-grey-bg .col-explanation>p {
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.col-img,
+.explanation {
+    align-items: center;
 }
 
 /*------------------------
