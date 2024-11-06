@@ -18,6 +18,14 @@
     margin-right: auto;
 }
 
+/*----------------
+    TYPOGRAPHY
+-----------------*/
+
+body {
+    font-family: "Roboto", serif;
+}
+
 /*-------------
     HEADER
 --------------*/
