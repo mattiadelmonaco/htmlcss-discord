@@ -57,7 +57,7 @@ i {
     color: black;
 }
 
-.btn > i {
+.btn>i {
     margin-right: 8px;
 }
 
@@ -222,7 +222,8 @@ header {
     min-height: 900px;
 }
 
-.explanation-grey-bg .last-big-img>h2, p {
+.explanation-grey-bg .last-big-img>h2,
+p {
     line-height: 25px;
     margin-top: 30px;
     text-align: center;
@@ -257,7 +258,8 @@ header {
     min-height: 580px;
 }
 
-.col-lng-social h2, h4 {
+.col-lng-social h2,
+h4 {
     color: #7289da;
     margin-right: 30px;
 }
@@ -266,14 +268,16 @@ header {
     max-width: 30px;
 }
 
-.col-lng-social p, img, i {
+.col-lng-social p,
+img,
+i {
     display: flex;
     align-items: center;
     margin-right: 4px;
     color: white;
 }
 
-p ~ i {
+p~i {
     font-size: 30px;
     margin-top: 30px;
     margin-right: 20px;
