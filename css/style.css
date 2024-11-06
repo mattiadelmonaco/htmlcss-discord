@@ -85,6 +85,10 @@ h3 {
     margin-bottom: 30px;
 }
 
+h4 {
+    font-size: 18px;
+}
+
 /*-------------
     HEADER
 --------------*/
@@ -241,12 +245,13 @@ header {
 }
 
 .col-lng-social {
-    width: 40%;
-    height: 580px;
+    max-width: 30%;
+    min-height: 580px;
 }
 
-.col-lng-social h2 {
+.col-lng-social h2, h4 {
     color: #7289da;
+    margin-right: 30px;
 }
 
 .col-lng-social img {
@@ -268,10 +273,24 @@ p ~ i {
 }
 
 .col-aqua {
-    background-color: #20b2aa;
-    width: 15%;
-    height: 580px;
-    border: 2px dashed white;
+    width: 25%;
+    min-height: 580px;
+}
+
+.col-aqua ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-aqua li {
+    list-style: none;
+    font-size: 17px;
+}
+
+.col-aqua ul {
+    margin-top: 60px;
+    margin-left: 80px;
+    line-height: 45px;
 }
 
 /*------------------
