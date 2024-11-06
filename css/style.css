@@ -272,22 +272,22 @@ p ~ i {
     color: white;
 }
 
-.col-aqua {
+.col-links {
     width: 25%;
     min-height: 580px;
 }
 
-.col-aqua ul a {
+.col-links ul a {
     text-decoration: none;
     color: white;
 }
 
-.col-aqua li {
+.col-links li {
     list-style: none;
     font-size: 17px;
 }
 
-.col-aqua ul {
+.col-links ul {
     margin-top: 60px;
     margin-left: 80px;
     line-height: 45px;
