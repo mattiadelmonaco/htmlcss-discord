@@ -53,9 +53,17 @@ i {
     font-size: 12px;
 }
 
+.btn-hero-white i {
+    color: black;
+}
 
 .btn > i {
     margin-right: 8px;
+}
+
+.btn-footer-bottom {
+    background-color: #8ea1e1;
+    color: white;
 }
 
 /*----------------
@@ -306,19 +314,8 @@ p ~ i {
 .footer-bottom {
     background-color: #23272a;
     padding-top: 30px;
-    border-top: 2px solid #eeeeee;
-    border-bottom: 2px solid #eeeeee;
-}
-
-.col-lightgreen {
-    background-color: #7fffd4;
-    width: 100%;
-    height: 80px;
-}
-
-.logo-second,
-.button {
-    background-color: #ffb6c1;
-    border: 2px dashed black;
-    padding: 10px;
+    border-top: 2px solid #4a5882;
+    max-width: 100%;
+    min-height: 130px;
+    padding-bottom: 90px;
 }
